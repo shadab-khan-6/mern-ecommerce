@@ -1,7 +1,22 @@
 # Security Policy
 
+This policy was scaffolded by Safeguard auto-remediation to strengthen the
+security posture of **shadab-khan-6/mern-ecommerce**.
+
 ## Reporting a Vulnerability
 
-Please submit a pull request to report security bugs.  
+Please report security issues to the project maintainers. We aim to acknowledge
+reports within 3 business days and to provide a remediation timeline thereafter.
 
-I will confirm the problem, audit code to find potential similar problems and coordinate the fix.
+## Hardening Checklist
+
+- [ ] Enable Dependabot security & version updates (see `.github/dependabot.yml`)
+- [ ] Enable secret scanning and push protection
+- [ ] Require code review and status checks before merge on protected branches
+- [ ] Enable CodeQL / SAST scanning in CI
+
+## Supported Versions
+
+| Version | Supported |
+| ------- | --------- |
+| latest  | yes       |
