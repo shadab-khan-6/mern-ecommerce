@@ -1,7 +1,14 @@
 # Security Policy
 
+Scaffolded by Safeguard auto-remediation to close compliance gaps for **shadab-khan-6/mern-ecommerce**.
+
 ## Reporting a Vulnerability
 
-Please submit a pull request to report security bugs.  
+Please report security issues to the project maintainers. We aim to acknowledge
+reports within 3 business days.
 
-I will confirm the problem, audit code to find potential similar problems and coordinate the fix.
+## Supported Versions
+
+| Version | Supported |
+| ------- | --------- |
+| latest  | yes       |
